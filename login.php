@@ -14,12 +14,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->bind_result($id, $username, $hashed_password);
     $stmt->fetch();
 
-    if ($stmt->num_rows > 0 && password_verify($password, $hashed_password)) {
+    if ($stmt->num_rows > 0 && password_verify($password, $hashed_password)) 
+    {
         $_SESSION["user_id"] = $id;
         $_SESSION["username"] = $username;
         header("Location: index.php");
         exit();
-    } else {
+    } 
+    else {
         echo "Invalid email or password!";
     }
     $stmt->close();
