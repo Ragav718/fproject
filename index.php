@@ -10,13 +10,13 @@ if (!isset($_SESSION["user_id"])) {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome</title>
+    <title>Shadow Monarch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h2>Welcome, <?php echo htmlspecialchars($_SESSION["username"]); ?>!</h2>
-        <p>You have successfully logged in.</p>
+        <p>Congratulations on becoming a member of the Shadow Monarch!!!</p>
         <a href="logout.php">Logout</a>
     </div>
 </body>
