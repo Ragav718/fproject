@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Register</title>
+    <title>Monarch Registration</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
