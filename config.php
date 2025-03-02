@@ -1,6 +1,6 @@
 <?php
 $host = "localhost"; // Change if needed
-$dbname = "mydb"; // Change to your DB name
+$dbname = "mydatabase"; // Change to your DB name
 $user = "root"; // Change if needed
 $pass = "UserRoot!"; // Change if needed
 
